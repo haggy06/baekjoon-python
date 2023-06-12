@@ -1,0 +1,5 @@
+a = input()
+l = input()
+l1 = map(int, l.split())
+l2 = map(int, l.split())
+print(f"{min(l1)} {max(l2)}")
